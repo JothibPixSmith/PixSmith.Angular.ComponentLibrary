@@ -1,0 +1,12 @@
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    {{ placeholder }}
+  </button>
+  <ul class="dropdown-menu">
+    <li *ngFor="let item of items">
+      <a class="dropdown-item" (click)="onSelectedItemClickedInternal(item)">
+        {{item.text || item.value}}
+      </a>
+    </li>
+  </ul>
+</div>

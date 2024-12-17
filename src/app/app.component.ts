@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-import { LabelComponent,InputComponent, ButtonComponent, DropdownComponent, DropdownItem } from 'pix-smith-angular-components';
+import { LabelComponent,InputComponent, ButtonComponent, DropdownComponent, DropdownItem, CarouselComponent } from 'pix-smith-angular-components';
 
 @Component({
   selector: 'app-root',
-  imports: [LabelComponent, InputComponent, ButtonComponent, DropdownComponent],
+  imports: [LabelComponent, InputComponent, ButtonComponent, DropdownComponent, CarouselComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass'
 })

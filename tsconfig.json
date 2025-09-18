@@ -15,8 +15,8 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "paths": {
-      "pixsmith-angular-components": [
-        "./dist/pixsmith-angular-components"
+      "pix-smith-angular-components": [
+        "./dist/pix-smith-angular-components"
       ]
     },
     "importHelpers": true,

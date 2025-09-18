@@ -1,3 +1,37 @@
-<div>
-  <pixsmith-header></pixsmith-header>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Component Library</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">Label component:</div>
+    <div class="col-10">
+      <pix-label>test</pix-label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">Button component:</div>
+    <div class="col-10">
+      <div class="row">
+        <pix-button type="primary">primary</pix-button>
+      </div>
+      <div class="row"><pix-button type="secondary">secondary</pix-button></div>
+      <div class="row"><pix-button type="success">success</pix-button></div>
+      <div class="row"><pix-button type="danger">danger</pix-button></div>
+      <div class="row"><pix-button type="warning">warning</pix-button></div>
+      <div class="row"><pix-button type="info">info</pix-button></div>
+      <div class="row"><pix-button type="light">light</pix-button></div>
+      <div class="row"><pix-button type="dark">dark</pix-button></div>
+      <div class="row"><pix-button type="link">link</pix-button></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      Dropdown component:
+    </div>
+    <div class="col-10">
+      <pix-dropdown [items]="dropdownItems" placeholder="Select something!"></pix-dropdown>
+    </div>
+  </div>
 </div>
